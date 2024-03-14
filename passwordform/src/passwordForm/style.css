@@ -200,7 +200,7 @@ select {
 @media screen and (min-width: 279px) and (max-width: 479px) {
   
     html{
-      font-size: 12px;
+      font-size: 10px;
     }
     .main {
       width: 95%;
@@ -214,7 +214,7 @@ select {
       width: 100%;
     }
     .image_Passport {
-      padding: 6% 1% 0 1%;
+      padding: 12% 1% 0 1%;
       width: 13%;
     }
     .image_Passport img {
@@ -235,9 +235,9 @@ select {
   width: 86%;
     }
     .Passport_details_header {
-      font-size: 11px;
-      line-height: 12px;
-      word-spacing: 2px;
+      font-size: 8px;
+      line-height: 10px;
+      word-spacing: -1px;
       padding-bottom: 1%;
       text-align: justify;
     }
@@ -254,8 +254,8 @@ select {
     .normalTatkaal {
       padding: 0 2%;
       position: absolute;
-      left: 40%;
-      top: 22%;
+      left: 49%;
+      top: 20%;
     }
     .radioBtn {
       padding: 1px !important;
@@ -275,40 +275,39 @@ select {
       bottom: 0;
     }
     .gender{
-      width: 35%;
+      width: 35%;    height: 1.5rem;
     }
     .labelAlignMent {
       display: flex;
-      width: 90%;
-      padding: 0%;
-      margin: 0%;
-      justify-content: space-between;
+    width: 100%;
+    padding: 0%;
+    margin: 0;
+    justify-content: space-between;
+    }
+    .labelAlignMent div{
+      width: 35%;
+    }
+    .padding-right{
+      padding-right: 7%;
     }
     .inputReq{
-      width: 72%;   
+      width: 74%;      height: 1.5rem; 
     }
   .Marital,.Citizenship,.inputReqPan,.inputReqVoter{
-    width: 20.5%;
+    width: 20.5%;    height: 1.5rem;
   }
-    #Town-city,.Region{
-      width: 60%;
+  .dateOfBirth{
+    height: 1.5rem;
+  }
+  .email,.Zip,#Telephone-Number,.emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1, #Town-city,.Region,.state,.District,.numberMB,.mb{
+      width: 99%;    height: 1.5rem;
     }
-    .state,.District,.numberMB,.mb{
-  width: 70%;
-    }
-    .Zip,#Telephone-Number {
-      width: 80%;
-    }
-          .emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1{
-      width: 99%;
-    }
-    .email{
-      width: 65%;
-    }
-  
     .label,
     .labelInput {
       font-weight: 700;
+    }
+    .labelInput{
+      width: 80%;
     }
     .inputField {
       width: 60%;
@@ -330,10 +329,11 @@ select {
       margin-right: 75px;
     }
     .first-label {
-      margin-right: 15%;
+      margin-right: 0%;
     }
     .select-0 {
-      width: 55%;
+      width: 60%;
+      height: 1.5rem;
     }
   
     input,
@@ -342,13 +342,6 @@ select {
     }
     .image {
       padding: 10px;
-    }
-    .heading-third,
-    .heading-forth {
-      font-weight: 800;
-      text-align: center;
-      font-size: larger;
-      color: rgb(12, 12, 12);
     }
     .details{
       display: flex;
@@ -378,38 +371,38 @@ select {
   
     .width {
       width: 99%;
+      height: 1.5rem;
     }
     .para1 {
-      width: 85%;
       float: left;
     }
     .con-Para,.con-Para-1,.con-Para-2,.con-Para-3 {
-      width: 92%;
-      padding-right: 0;
+      width: 100%;
+      padding-right: 0;    text-align: justify;
     }
      
     
     .radio {
-      width: 16%;
       float: right;
-      margin-top: -25px;
+      margin-top: -15px;
     }
-    .radio-1 {
-      width: 16%;
+       .radio-1{
+        float: right;
+        margin-top: -15px;
+      }  
+        .radio-2{
       float: right;
-      margin-top: -20px;
+      margin-top: -2px;
     }
-    .radio-2 {
-      width: 16%;
+    .radio-3{
       float: right;
-      margin-top: -20px;
+      margin-top: -6px;
     }
-    .radio-3 {
-      width: 16%;
+    #radio-4,#radio-5{
       float: right;
-      margin-top: -12px;
+      margin-top: -3px;
     }
-    .border-part {
+   .border-part {
       border: 1px solid black;
       padding: 5px;
     }

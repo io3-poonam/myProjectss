@@ -171,10 +171,10 @@ const PasswordForm = () => {
             <label className="radioBtn">No</label>
           </div>
         </div>
-        <label className="label">
+        <label className="label ">
           Date of Birth (DD/MM/YYYY) <span>*</span>
         </label>
-        <input type="text" id="sixth" name="sixth" required />
+        <input type="text" className="dateOfBirth" id="sixth" name="sixth" required />
         <br />
         <h4 className="heading-3">Place Of Birth</h4>
         <label className="label">
@@ -754,7 +754,7 @@ const PasswordForm = () => {
                   Has your passport ever been impounded?<span>*</span>
                 </p>
               </div>
-              <div className="radio-3">
+              <div className="radio-3" id="radio-4">
                 <input type="radio" name="2point" required />
                 Yes
                 <input type="radio" name="2point" required />
@@ -770,7 +770,7 @@ const PasswordForm = () => {
                   Has your passport ever been revoked?<span>*</span>
                 </p>
               </div>
-              <div className="radio-3">
+              <div className="radio-3" id="radio-5">
                 <input type="radio" name="3point" required />
                 Yes
                 <input type="radio" name="3point" required />
@@ -794,7 +794,7 @@ const PasswordForm = () => {
                   region/country?<span>*</span>
                 </p>
               </div>
-              <div className="radio-3">
+              <div className="radio-3" id="radio-6">
                 <input type="radio" name="4point" required />
                 Yes
                 <input type="radio" name="4point" required />
