@@ -129,6 +129,9 @@ select {
 .margin-between {
   margin-right: 150px;
 }
+.details{
+  display: flex
+}
 .para {
   font-weight: 600;
 }
@@ -195,14 +198,464 @@ select {
 @media screen and (min-width: 1px) and (max-width: 278px) {
 }
 @media screen and (min-width: 279px) and (max-width: 479px) {
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  
+    html{
+      font-size: 12px;
+    }
+    .main {
+      width: 95%;
+      margin: auto;
+    }
+    /* Header Section start */
+    .passport_Header {
+      display: flex;
+      flex-direction: row;
+      border: 2px solid pink;
+      width: 100%;
+    }
+    .image_Passport {
+      padding: 6% 1% 0 1%;
+      width: 13%;
+    }
+    .image_Passport img {
+      width: 3.5rem;
+    }
+    .heading-third {
+      padding-top: 0.1rem;    font-size: 1.1rem;
+      line-height: 1rem;
+    }
+    .heading-forth {
+      font-size: 1rem;
+      line-height: 15px;
+      word-spacing: 2px;
+      padding: 0;
+      margin: 0;
+    }
+    .Header_mid_Section {
+  width: 86%;
+    }
+    .Passport_details_header {
+      font-size: 11px;
+      line-height: 12px;
+      word-spacing: 2px;
+      padding-bottom: 1%;
+      text-align: justify;
+    }
+    /* Header Section end */
+    
+    .Ser_Reqd,
+    .heading-four {
+      background-color: rgb(170, 167, 167);
+      padding: 3px;
+    }
+    .ApplyFor {
+      width: 80%;
+    }
+    .normalTatkaal {
+      padding: 0 2%;
+      position: absolute;
+      left: 40%;
+      top: 22%;
+    }
+    .radioBtn {
+      padding: 1px !important;
+      margin: 1px !important;
+    }
+    .normal {
+      padding: 6px !important;
+    }
+    .nameSectionForm {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .gender{
+      width: 35%;
+    }
+    .labelAlignMent {
+      display: flex;
+      width: 90%;
+      padding: 0%;
+      margin: 0%;
+      justify-content: space-between;
+    }
+    .inputReq{
+      width: 72%;   
+    }
+  .Marital,.Citizenship,.inputReqPan,.inputReqVoter{
+    width: 20.5%;
   }
+    #Town-city,.Region{
+      width: 60%;
+    }
+    .state,.District,.numberMB,.mb{
+  width: 70%;
+    }
+    .Zip,#Telephone-Number {
+      width: 80%;
+    }
+          .emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1{
+      width: 99%;
+    }
+    .email{
+      width: 65%;
+    }
+  
+    .label,
+    .labelInput {
+      font-weight: 700;
+    }
+    .inputField {
+      width: 60%;
+    }
+    option {
+      font-weight: 700;
+    }
+    .Applicant_Width {
+      width: 100%;
+    }
+    label,
+    input,
+    select,
+    h4 {
+      margin: 2px;
+      padding: 1px;
+    }
+    .margin-right-1 {
+      margin-right: 75px;
+    }
+    .first-label {
+      margin-right: 15%;
+    }
+    .select-0 {
+      width: 55%;
+    }
+  
+    input,
+    select {
+      background-color: rgb(235, 240, 254);
+    }
+    .image {
+      padding: 10px;
+    }
+    .heading-third,
+    .heading-forth {
+      font-weight: 800;
+      text-align: center;
+      font-size: larger;
+      color: rgb(12, 12, 12);
+    }
+    .details{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    .detailsSection{
+     width: 100%;
+    }
+    .margin-between {
+      margin-right:0;
+    }
+    .para {
+      font-weight: 600;
+    }
+    .heading-3 {
+      background-color: rgb(170, 167, 167);
+      padding: 4px;
+    }
+    .option {
+      white-space: wrap;
+      overflow: scroll;
+      border: 1px solid blue;
+      width: 40%;
+      padding: 0 50%;
+    }
+  
+    .width {
+      width: 99%;
+    }
+    .para1 {
+      width: 85%;
+      float: left;
+    }
+    .con-Para,.con-Para-1,.con-Para-2,.con-Para-3 {
+      width: 92%;
+      padding-right: 0;
+    }
+     
+    
+    .radio {
+      width: 16%;
+      float: right;
+      margin-top: -25px;
+    }
+    .radio-1 {
+      width: 16%;
+      float: right;
+      margin-top: -20px;
+    }
+    .radio-2 {
+      width: 16%;
+      float: right;
+      margin-top: -20px;
+    }
+    .radio-3 {
+      width: 16%;
+      float: right;
+      margin-top: -12px;
+    }
+    .border-part {
+      border: 1px solid black;
+      padding: 5px;
+    }
+    .last-div {
+      border: 1px solid black;
+    }
+    .btn {
+      padding: 10px;
+      border-radius: 1px;
+      margin: 4px;
+      text-transform: uppercase;
+      background-color: rgb(170, 167, 167);
+      font-weight: 600;
+      font-size: 1rem;
+    }
+   
+  }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  html{
+    font-size: 12px;
+  }
+  .main {
+    width: 95%;
+    margin: auto;
+  }
+  /* Header Section start */
+  .passport_Header {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid pink;
+    width: 100%;
+  }
+  .image_Passport {
+    padding: 6% 1% 0 1%;
+    width: 13%;
+  }
+  .image_Passport img {
+    width: 3.5rem;
+  }
+  .heading-third {
+    padding-top: 0.1rem;    font-size: 1.1rem;
+    line-height: 1rem;
+  }
+  .heading-forth {
+    font-size: 1rem;
+    line-height: 15px;
+    word-spacing: 2px;
+    padding: 0;
+    margin: 0;
+  }
+  .Header_mid_Section {
+width: 86%;
+  }
+  .Passport_details_header {
+    font-size: 11px;
+    line-height: 12px;
+    word-spacing: 2px;
+    padding-bottom: 1%;
+    text-align: justify;
+  }
+  /* Header Section end */
+  
+  .Ser_Reqd,
+  .heading-four {
+    background-color: rgb(170, 167, 167);
+    padding: 3px;
+  }
+  .ApplyFor {
+    width: 80%;
+  }
+  .normalTatkaal {
+    padding: 0 2%;
+    position: absolute;
+    left: 40%;
+    top: 22%;
+  }
+  .radioBtn {
+    padding: 1px !important;
+    margin: 1px !important;
+  }
+  .normal {
+    padding: 6px !important;
+  }
+  .nameSectionForm {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .gender{
+    width: 35%;
+  }
+  .labelAlignMent {
+    display: flex;
+    width: 80%;
+    padding: 0%;
+    margin: 0%;
+    justify-content: space-between;
+  }
+  .inputReq{
+    width: 72%;   
+  }
+
+  .mb,.Marital,.inputReqPan,.inputReqVoter,.Citizenship,#Town-city,.Region{
+    width: 27.5%;
+  }
+  .state,.District{
+width: 31%;
+  }
+  .numberMB,.Zip{
+    width: 34%;
+  }
+  .emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1{
+    width: 99%;
+  }
+  .email{
+    width: 65%;
+  }
+
+  .label,
+  .labelInput {
+    font-weight: 700;
+  }
+  .inputField {
+    width: 60%;
+  }
+  option {
+    font-weight: 700;
+  }
+  .Applicant_Width {
+    width: 100%;
+  }
+  label,
+  input,
+  select,
+  h4 {
+    margin: 2px;
+    padding: 1px;
+  }
+  .margin-right-1 {
+    margin-right: 75px;
+  }
+  .first-label {
+    margin-right: 15%;
+  }
+  .select-0 {
+    width: 55%;
+  }
+
+  input,
+  select {
+    background-color: rgb(235, 240, 254);
+  }
+  .image {
+    padding: 10px;
+  }
+  .heading-third,
+  .heading-forth {
+    font-weight: 800;
+    text-align: center;
+    font-size: larger;
+    color: rgb(12, 12, 12);
+  }
+  .details{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .detailsSection{
+   width: 100%;
+  }
+  .margin-between {
+    margin-right:0;
+  }
+  .para {
+    font-weight: 600;
+  }
+  .heading-3 {
+    background-color: rgb(170, 167, 167);
+    padding: 4px;
+  }
+  .option {
+    white-space: wrap;
+    overflow: scroll;
+    border: 1px solid blue;
+    width: 40%;
+    padding: 0 50%;
+  }
+
+  .width {
+    width: 99%;
+  }
+  .para1 {
+    width: 88%;
+    float: left;
+  }
+  .con-Para,.con-Para-1,.con-Para-2,.con-Para-3 {
+    width: 90%;
+    padding-right: 0;
+  }
+   
+  
+  .radio {
+    width: 13%;
+    float: right;
+    margin-top: -24px;
+  }
+  .radio-1 {
+    width: 13%;
+    float: right;
+    margin-top: -28px;
+  }
+  .radio-2 {
+    width: 13%;
+    float: right;
+    margin-top: -20px;
+  }
+  .radio-3 {
+    width: 13%;
+    float: right;
+    margin-top: -12px;
+  }
+  .border-part {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .last-div {
+    border: 1px solid black;
+  }
+  .btn {
+    padding: 10px;
+    border-radius: 1px;
+    margin: 4px;
+    text-transform: uppercase;
+    background-color: rgb(170, 167, 167);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
   form {
     width: 100%;
   }
@@ -215,27 +668,35 @@ select {
     display: flex;
     flex-direction: row;
     border: 2px solid pink;
+    width: 100%;
   }
   .image_Passport {
-    padding: 2% 1% 0 1%;
+    padding: 3% 1% 0 1%;
+    width: 13%;
   }
   .image_Passport img {
-    width: 5rem;
+    width: 3.5rem;
   }
   .Header_mid_Section .heading-third,
   .heading-forth {
     text-align: center;
   }
   .heading-third {
-    padding-top: 0.1rem;
+    padding-top: 0.1rem;    font-size: 1.1rem;
+    line-height: 1rem;
   }
   .heading-forth {
-    font-size: 1.1rem;
+    font-size: 1rem;
     word-spacing: 2px;
     padding: 0;
     margin: 0;
   }
+  .Header_mid_Section {
+width: 86%;
+  }
   .Passport_details_header {
+    font-size: 12px;
+    line-height: 13px;
     word-spacing: 2px;
     padding-bottom: 1%;
     text-align: justify;
@@ -273,9 +734,12 @@ select {
     right: 0;
     bottom: 0;
   }
+  .gender{
+    width: 35%;
+  }
   .labelAlignMent {
     display: flex;
-    width: 90%;
+    width: 80%;
     padding: 0%;
     margin: 0%;
     justify-content: space-between;
@@ -283,12 +747,23 @@ select {
   .inputReq{
     width: 63%;   
   }
- .Marital,.inputReqPan,.inputReqVoter,.Citizenship{
+
+  .mb,.Marital,.inputReqPan,.inputReqVoter,.Citizenship,#Town-city,.Region{
     width: 20%;
   }
-  .Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1{
-    width: 100%;
+  .state,.District{
+width: 24%;
   }
+  .numberMB,.Zip{
+    width: 27.3%;
+  }
+  #Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1{
+    width: 98%;
+  }
+  .email{
+    width: 60%;
+  }
+
   .label,
   .labelInput {
     font-weight: 700;
@@ -336,8 +811,16 @@ select {
     font-size: larger;
     color: rgb(12, 12, 12);
   }
+  .details{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .detailsSection{
+   width: 100%;
+  }
   .margin-between {
-    margin-right: 150px;
+    margin-right:0;
   }
   .para {
     font-weight: 600;
@@ -353,12 +836,7 @@ select {
     width: 40%;
     padding: 0 50%;
   }
-  .E-mail-ID{
-    width: 83%;
-  }
-  .numberMB{
-    width: 20%;
-  }
+
   .width {
     width: 99%;
   }
@@ -366,7 +844,7 @@ select {
     float: left;
   }
   .con-Para {
-    width: 80%;
+    width: 90%;
   }
   .con-Para-1 {
     padding-right: 180px;
@@ -408,14 +886,7 @@ select {
     font-size: 1rem;
   }
 }@media screen and (min-width: 1024px) and (max-width: 1219px) {
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  form {
-    width: 100%;
-  }
+ 
   .main {
     width: 75%;
     margin: auto;
@@ -447,7 +918,7 @@ select {
   }
   .Passport_details_header {
     word-spacing: 2px;
-    padding-bottom: 1%;
+    padding: 0 1% 1% 0;
     text-align: justify;
   }
   /* Header Section end */
@@ -489,7 +960,9 @@ select {
     margin: 0%;
     justify-content: space-between;
   }
-  
+  .details{
+    display: flex
+  }
   .label,
   .labelInput {
     font-weight: 700;
@@ -520,8 +993,27 @@ select {
     width: 55%;
   }
   .select-1 {
-    width: 20%;
+    width: 40%;
   }
+  .Educational{
+    width: 11%;
+  }
+  .Citizenship{
+    width: 13%;
+  }
+  #Address{
+    width: 90%;
+  }
+ 
+    #Town-city,.Region{
+      width: 23.5%;
+  }
+  .state,.District{
+    width: 27%;
+}
+.Zip,.numberMB{
+  width: 30.5%;
+}
   input,
   select {
     background-color: rgb(235, 240, 254);
@@ -603,14 +1095,7 @@ select {
   }
 }
 @media screen and (min-width: 1220px) and (max-width: 1919px) {
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  form {
-    width: 100%;
-  }
+ 
   .main {
     width: 75%;
     margin: auto;
@@ -642,7 +1127,7 @@ select {
   }
   .Passport_details_header {
     word-spacing: 2px;
-    padding-bottom: 1%;
+    padding: 0 1% 1% 0;
     text-align: justify;
   }
   /* Header Section end */
@@ -750,6 +1235,9 @@ select {
   }
   .width {
     width: 99%;
+  }
+  .details{
+    display: flex
   }
   .para1 {
     float: left;

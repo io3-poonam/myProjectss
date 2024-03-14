@@ -112,7 +112,7 @@ const PasswordForm = () => {
         <label className="label">
           Gender<span>*</span>
         </label>
-        <select className="select-1" id="genders">
+        <select className=" gender" id="genders">
           <option value=""></option>
           <option id="1" value="male">
             Male
@@ -265,7 +265,7 @@ const PasswordForm = () => {
           Employment Type <span>*</span>
         </label>
         <select
-          className="select-1 label inputReqEmp"
+          className="emp label inputReqEmp"
           id="Employment"
           required
           name="option"
@@ -462,22 +462,23 @@ const PasswordForm = () => {
         <label>
           Region/Country <span>*</span>
         </label>
-        <input type="text" id="Region/Country " required />
+        <input type="text" className="Region" id="Region/Country " required />
         <br />
         <label>
           State/ Province <span>*</span>
         </label>
-        <input type="text" id="State/ Province" required />
+        <input type="text" className="state" id="State/ Province" required />
         <label>
           District/ County <span>*</span>
         </label>
-        <input type="text" id="District/ County " required />
+        <input type="text"className="District" id="District/ County " required />
         <br />
         <label>
           Zip Code <span>*</span>
         </label>
         <input
           type="text"
+          className="Zip"
           id="Zip CodeState/ Province"
           size="10"
           maxLength="6"
@@ -513,7 +514,7 @@ const PasswordForm = () => {
         <input
           type="text"
           id="E-mail-ID "
-          className="E-mail-ID"
+          className="email"
           size="90"
           required
         />
@@ -550,12 +551,12 @@ const PasswordForm = () => {
         <label>
           Mobile Number <span>*</span>
         </label>
-        <input type="text" id="Mobile Number " maxLength="10" required />
+        <input type="text" className="mb" id="Mobile Number " maxLength="10" required />
         <label>
           {" "}
           Telephone Number <span>*</span>
         </label>
-        <input
+        <input className="mb"
           type="text"
           id="Telephone-Number "
           required
@@ -567,7 +568,7 @@ const PasswordForm = () => {
         <label>
           E-mail ID <span>*</span>
         </label>
-        <input type="text" id="E-mail-ID " size="90" required />
+        <input type="text" className="email" id="E-mail-ID " size="90" required />
         <br />
         <h4 className="heading-3">Identity Certificate /Passport Details</h4>
         <label className="label">
@@ -590,19 +591,22 @@ const PasswordForm = () => {
         />
         <label className="radioBtn">No</label>
         <br />
+   
         <label className="label">
           (Identity Certificate(IC) is normally issued to Tibetan/other
           stateless people residing in India) Details of Previous/Current
           Diplomatic/Official Passport<span>*</span>
         </label>
-        <br />
+        <div className="details">
+          <div className="detailsSection">
         <input type="radio" id="IC" name="IC" required />
-        <label className="margin-between">Details Available</label>
+        <label className="margin-between">Details Available</label></div>
+        <div className="detailsSection">
         <input type="radio" id="IC" name="IC" required />
         <label>
           Details Not Available/Never Held Diplomatic/Official Passport
-        </label>
-        <br />
+        </label></div>
+        </div>
         <label className="label">
           Have you ever applied for passport, but not issued?<span>*</span>
         </label>
