@@ -129,8 +129,8 @@ select {
 .margin-between {
   margin-right: 150px;
 }
-.details{
-  display: flex
+.details {
+  display: flex;
 }
 .para {
   font-weight: 600;
@@ -149,35 +149,27 @@ select {
 .width {
   width: 99%;
 }
+.condition .condition {
+  width: 100%;
+}
 .para1 {
+  width: 90%;
   float: left;
 }
-.con-Para {
-  width: 80%;
-}
-.con-Para-1 {
-  padding-right: 180px;
-}
+.con-Para,
+.con-Para-1,
 .con-Para-2 {
-  padding-right: 290px;
+  width: 100%;
 }
 
-.radio {
-  float: right;
-  margin-top: -38px;
-}
-.radio-1 {
-  float: right;
-  margin-top: -20px;
-}
-.radio-2 {
-  float: right;
-  margin-top: -5px;
-}
+.radio,
+.radio-1,
+.radio-2,
 .radio-3 {
   float: right;
-  margin-top: -5px;
+  width: 10%;
 }
+
 .border-part {
   border: 1px solid black;
   padding: 5px;
@@ -196,233 +188,9 @@ select {
 }
 /* media query */
 @media screen and (min-width: 1px) and (max-width: 278px) {
-}
-@media screen and (min-width: 279px) and (max-width: 479px) {
   
-    html{
-      font-size: 10px;
-    }
-    .main {
-      width: 95%;
-      margin: auto;
-    }
-    /* Header Section start */
-    .passport_Header {
-      display: flex;
-      flex-direction: row;
-      border: 2px solid pink;
-      width: 100%;
-    }
-    .image_Passport {
-      padding: 12% 1% 0 1%;
-      width: 13%;
-    }
-    .image_Passport img {
-      width: 3.5rem;
-    }
-    .heading-third {
-      padding-top: 0.1rem;    font-size: 1.1rem;
-      line-height: 1rem;
-    }
-    .heading-forth {
-      font-size: 1rem;
-      line-height: 15px;
-      word-spacing: 2px;
-      padding: 0;
-      margin: 0;
-    }
-    .Header_mid_Section {
-  width: 86%;
-    }
-    .Passport_details_header {
-      font-size: 8px;
-      line-height: 10px;
-      word-spacing: -1px;
-      padding-bottom: 1%;
-      text-align: justify;
-    }
-    /* Header Section end */
-    
-    .Ser_Reqd,
-    .heading-four {
-      background-color: rgb(170, 167, 167);
-      padding: 3px;
-    }
-    .ApplyFor {
-      width: 80%;
-    }
-    .normalTatkaal {
-      padding: 0 2%;
-      position: absolute;
-      left: 49%;
-      top: 20%;
-    }
-    .radioBtn {
-      padding: 1px !important;
-      margin: 1px !important;
-    }
-    .normal {
-      padding: 6px !important;
-    }
-    .nameSectionForm {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-      position: relative;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-    .gender{
-      width: 35%;    height: 1.5rem;
-    }
-    .labelAlignMent {
-      display: flex;
-    width: 100%;
-    padding: 0%;
-    margin: 0;
-    justify-content: space-between;
-    }
-    .labelAlignMent div{
-      width: 35%;
-    }
-    .padding-right{
-      padding-right: 7%;
-    }
-    .inputReq{
-      width: 74%;      height: 1.5rem; 
-    }
-  .Marital,.Citizenship,.inputReqPan,.inputReqVoter{
-    width: 20.5%;    height: 1.5rem;
-  }
-  .dateOfBirth{
-    height: 1.5rem;
-  }
-  .email,.Zip,#Telephone-Number,.emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1, #Town-city,.Region,.state,.District,.numberMB,.mb{
-      width: 99%;    height: 1.5rem;
-    }
-    .label,
-    .labelInput {
-      font-weight: 700;
-    }
-    .labelInput{
-      width: 80%;
-    }
-    .inputField {
-      width: 60%;
-    }
-    option {
-      font-weight: 700;
-    }
-    .Applicant_Width {
-      width: 100%;
-    }
-    label,
-    input,
-    select,
-    h4 {
-      margin: 2px;
-      padding: 1px;
-    }
-    .margin-right-1 {
-      margin-right: 75px;
-    }
-    .first-label {
-      margin-right: 0%;
-    }
-    .select-0 {
-      width: 60%;
-      height: 1.5rem;
-    }
-  
-    input,
-    select {
-      background-color: rgb(235, 240, 254);
-    }
-    .image {
-      padding: 10px;
-    }
-    .details{
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-    }
-    .detailsSection{
-     width: 100%;
-    }
-    .margin-between {
-      margin-right:0;
-    }
-    .para {
-      font-weight: 600;
-    }
-    .heading-3 {
-      background-color: rgb(170, 167, 167);
-      padding: 4px;
-    }
-    .option {
-      white-space: wrap;
-      overflow: scroll;
-      border: 1px solid blue;
-      width: 40%;
-      padding: 0 50%;
-    }
-  
-    .width {
-      width: 99%;
-      height: 1.5rem;
-    }
-    .para1 {
-      float: left;
-    }
-    .con-Para,.con-Para-1,.con-Para-2,.con-Para-3 {
-      width: 100%;
-      padding-right: 0;    text-align: justify;
-    }
-     
-    
-    .radio {
-      float: right;
-      margin-top: -15px;
-    }
-       .radio-1{
-        float: right;
-        margin-top: -15px;
-      }  
-        .radio-2{
-      float: right;
-      margin-top: -2px;
-    }
-    .radio-3{
-      float: right;
-      margin-top: -6px;
-    }
-    #radio-4,#radio-5{
-      float: right;
-      margin-top: -3px;
-    }
-   .border-part {
-      border: 1px solid black;
-      padding: 5px;
-    }
-    .last-div {
-      border: 1px solid black;
-    }
-    .btn {
-      padding: 10px;
-      border-radius: 1px;
-      margin: 4px;
-      text-transform: uppercase;
-      background-color: rgb(170, 167, 167);
-      font-weight: 600;
-      font-size: 1rem;
-    }
-   
-  }
-@media screen and (min-width: 480px) and (max-width: 767px) {
   html{
-    font-size: 12px;
+    font-size: 10px;
   }
   .main {
     width: 95%;
@@ -457,6 +225,431 @@ select {
 width: 86%;
   }
   .Passport_details_header {
+    font-size: 8px;
+    line-height: 10px;
+    word-spacing: -1px;
+    padding-bottom: 1%;
+    text-align: justify;
+  }
+  /* Header Section end */
+  
+  .Ser_Reqd,
+  .heading-four {
+    background-color: rgb(170, 167, 167);
+    padding: 3px;
+  }
+  .ApplyFor {
+    width: 80%;
+  }
+  .normalTatkaal {
+    padding: 0 2%;
+    position: absolute;
+    left: 49%;
+    top: 20%;
+  }
+  .radioBtn {
+    padding: 1px !important;
+    margin: 1px !important;
+  }
+  .normal {
+    padding: 6px !important;
+  }
+  .nameSectionForm {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .gender{
+    width: 35%;    height: 1.5rem;
+  }
+  .labelAlignMent {
+    display: flex;
+  width: 100%;
+  padding: 0%;
+  margin: 0;
+  justify-content: space-between;
+  }
+  .labelAlignMent div{
+    width: 35%;
+  }
+  .padding-right{
+    padding-right: 7%;
+  }
+  .inputReq{
+    width: 74%;      height: 1.5rem; 
+  }
+.Marital,.Citizenship,.inputReqPan,.inputReqVoter{
+  width: 20.5%;    height: 1.5rem;
+}
+.dateOfBirth{
+  height: 1.5rem;
+}
+.email,.Zip,#Telephone-Number,.emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1, #Town-city,.Region,.state,.District,.numberMB,.mb{
+    width: 99%;    height: 1.5rem;
+  }
+  .label,
+  .labelInput {
+    font-weight: 700;
+  }
+  .labelInput{
+    width: 80%;
+  }
+  .inputField {
+    width: 60%;
+  }
+  option {
+    font-weight: 700;
+  }
+  .Applicant_Width {
+    width: 100%;
+  }
+  label,
+  input,
+  select,
+  h4 {
+    margin: 2px;
+    padding: 1px;
+  }
+  .margin-right-1 {
+    margin-right: 75px;
+  }
+  .first-label {
+    margin-right: 0%;
+  }
+  .select-0 {
+    width: 60%;
+    height: 1.5rem;
+  }
+
+  input,
+  select {
+    background-color: rgb(235, 240, 254);
+  }
+  .image {
+    padding: 10px;
+  }
+  .details{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .detailsSection{
+   width: 100%;
+  }
+  .margin-between {
+    margin-right:0;
+  }
+  .para {
+    font-weight: 600;
+  }
+  .heading-3 {
+    background-color: rgb(170, 167, 167);
+    padding: 4px;
+  }
+  .option {
+    white-space: wrap;
+    overflow: scroll;
+    border: 1px solid blue;
+    width: 40%;
+    padding: 0 50%;
+  }
+
+  .width {
+    width: 99%;
+    height: 1.5rem;
+  }
+  .para1 {
+    width: 80%;
+    float: left;
+  }
+  .con-Para,.con-Para-1,.con-Para-2,.con-Para-3 {
+    width: 100%;
+    padding-right: 0;    text-align: justify;
+  }
+   
+  
+  .radio,   .radio-1, .radio-2 ,  .radio-3, #radio-4,#radio-5{
+    float: right;
+width: 20%;  }
+     .radio{
+      padding-top: 2%;
+    }  
+ 
+ .border-part {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .last-div {
+    border: 1px solid black;
+  }
+  .btn {
+    padding: 10px;
+    border-radius: 1px;
+    margin: 4px;
+    text-transform: uppercase;
+    background-color: rgb(170, 167, 167);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+ 
+}
+/* styling end */
+@media screen and (min-width: 279px) and (max-width: 479px) {
+  
+  html{
+    font-size: 10px;
+  }
+  .main {
+    width: 95%;
+    margin: auto;
+  }
+  /* Header Section start */
+  .passport_Header {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid pink;
+    width: 100%;
+  }
+  .image_Passport {
+    padding: 6% 1% 0 1%;
+    width: 13%;
+  }
+  .image_Passport img {
+    width: 3.5rem;
+  }
+  .heading-third {
+    padding-top: 0.1rem;    font-size: 1.1rem;
+    line-height: 1rem;
+  }
+  .heading-forth {
+    font-size: 1rem;
+    line-height: 15px;
+    word-spacing: 2px;
+    padding: 0;
+    margin: 0;
+  }
+  .Header_mid_Section {
+width: 86%;
+  }
+  .Passport_details_header {
+    font-size: 8px;
+    line-height: 10px;
+    word-spacing: -1px;
+    padding-bottom: 1%;
+    text-align: justify;
+  }
+  /* Header Section end */
+  
+  .Ser_Reqd,
+  .heading-four {
+    background-color: rgb(170, 167, 167);
+    padding: 3px;
+  }
+  .ApplyFor {
+    width: 80%;
+  }
+  .normalTatkaal {
+    padding: 0 2%;
+    position: absolute;
+    left: 49%;
+    top: 20%;
+  }
+  .radioBtn {
+    padding: 1px !important;
+    margin: 1px !important;
+  }
+  .normal {
+    padding: 6px !important;
+  }
+  .nameSectionForm {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .gender{
+    width: 35%;    height: 1.5rem;
+  }
+  .labelAlignMent {
+    display: flex;
+  width: 100%;
+  padding: 0%;
+  margin: 0;
+  justify-content: space-between;
+  }
+  .labelAlignMent div{
+    width: 35%;
+  }
+  .padding-right{
+    padding-right: 7%;
+  }
+  .inputReq{
+    width: 74%;      height: 1.5rem; 
+  }
+.Marital,.Citizenship,.inputReqPan,.inputReqVoter{
+  width: 20.5%;    height: 1.5rem;
+}
+.dateOfBirth{
+  height: 1.5rem;
+}
+.email,.Zip,#Telephone-Number,.emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1, #Town-city,.Region,.state,.District,.numberMB,.mb{
+    width: 99%;    height: 1.5rem;
+  }
+  .label,
+  .labelInput {
+    font-weight: 700;
+  }
+  .labelInput{
+    width: 80%;
+  }
+  .inputField {
+    width: 60%;
+  }
+  option {
+    font-weight: 700;
+  }
+  .Applicant_Width {
+    width: 100%;
+  }
+  label,
+  input,
+  select,
+  h4 {
+    margin: 2px;
+    padding: 1px;
+  }
+  .margin-right-1 {
+    margin-right: 75px;
+  }
+  .first-label {
+    margin-right: 0%;
+  }
+  .select-0 {
+    width: 60%;
+    height: 1.5rem;
+  }
+
+  input,
+  select {
+    background-color: rgb(235, 240, 254);
+  }
+  .image {
+    padding: 10px;
+  }
+  .details{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .detailsSection{
+   width: 100%;
+  }
+  .margin-between {
+    margin-right:0;
+  }
+  .para {
+    font-weight: 600;
+  }
+  .heading-3 {
+    background-color: rgb(170, 167, 167);
+    padding: 4px;
+  }
+  .option {
+    white-space: wrap;
+    overflow: scroll;
+    border: 1px solid blue;
+    width: 40%;
+    padding: 0 50%;
+  }
+
+  .width {
+    width: 99%;
+    height: 1.5rem;
+  }
+  .para1 {
+    width: 80%;
+    float: left;
+  }
+  .con-Para,.con-Para-1,.con-Para-2,.con-Para-3 {
+    width: 100%;
+    padding-right: 0;    text-align: justify;
+  }
+   
+  
+  .radio,   .radio-1, .radio-2 ,  .radio-3, #radio-4,#radio-5{
+    float: right;
+width: 20%;  }
+     .radio{
+      padding-top: 2%;
+    }  
+ 
+ .border-part {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .last-div {
+    border: 1px solid black;
+  }
+  .btn {
+    padding: 10px;
+    border-radius: 1px;
+    margin: 4px;
+    text-transform: uppercase;
+    background-color: rgb(170, 167, 167);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+ 
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .main {
+    width: 95%;
+    margin: auto;
+  }
+  /* Header Section start */
+  .passport_Header {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid pink;
+    width: 100%;
+  }
+  .image_Passport {
+    padding: 6% 1% 0 1%;
+    width: 13%;
+  }
+  .image_Passport img {
+    width: 3.5rem;
+  }
+  .heading-third {
+    padding-top: 0.1rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
+  }
+  .heading-forth {
+    font-size: 1rem;
+    line-height: 15px;
+    word-spacing: 2px;
+    padding: 0;
+    margin: 0;
+  }
+  .Header_mid_Section {
+    width: 86%;
+  }
+  .Passport_details_header {
     font-size: 11px;
     line-height: 12px;
     word-spacing: 2px;
@@ -464,7 +657,7 @@ width: 86%;
     text-align: justify;
   }
   /* Header Section end */
-  
+
   .Ser_Reqd,
   .heading-four {
     background-color: rgb(170, 167, 167);
@@ -496,8 +689,8 @@ width: 86%;
     right: 0;
     bottom: 0;
   }
-  .gender{
-    width: 35%;
+  .gender {
+    width: 25%;
   }
   .labelAlignMent {
     display: flex;
@@ -506,26 +699,41 @@ width: 86%;
     margin: 0%;
     justify-content: space-between;
   }
-  .inputReq{
-    width: 72%;   
+  .inputReq {
+    width: 72%;
   }
 
-  .mb,.Marital,.inputReqPan,.inputReqVoter,.Citizenship,#Town-city,.Region{
-    width: 27.5%;
-  }
-  .state,.District{
-width: 31%;
-  }
-  .numberMB,.Zip{
-    width: 34%;
-  }
-  .emp,#Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1{
-    width: 99%;
-  }
-  .email{
-    width: 65%;
+  .mb,
+  .Marital,
+  .inputReqPan,
+  .inputReqVoter,
+  .Citizenship,
+  #Town-city,
+  .Region,
+  .state,
+  .District,
+  .emp,
+  .Educational,
+  .eligible,
+  .inputReqAdhar,
+  .inputReqVisible,
+  .Citizenship1 {
+    width: 20%;
   }
 
+  .numberMB,
+  .Zip {
+    width: 32%;
+  }
+  #Mobile {
+    margin-right: 5%;
+  }
+  #Address {
+    width: 80%;
+  }
+  .email {
+    width: 60%;
+  }
   .label,
   .labelInput {
     font-weight: 700;
@@ -570,16 +778,16 @@ width: 31%;
     font-size: larger;
     color: rgb(12, 12, 12);
   }
-  .details{
+  .details {
     display: flex;
     width: 100%;
     flex-direction: column;
   }
-  .detailsSection{
-   width: 100%;
+  .detailsSection {
+    width: 100%;
   }
   .margin-between {
-    margin-right:0;
+    margin-right: 0;
   }
   .para {
     font-weight: 600;
@@ -600,34 +808,23 @@ width: 31%;
     width: 99%;
   }
   .para1 {
-    width: 88%;
+    width: 84%;
     float: left;
   }
-  .con-Para,.con-Para-1,.con-Para-2,.con-Para-3 {
-    width: 90%;
+  .con-Para,
+  .con-Para-1,
+  .con-Para-2,
+  .con-Para-3 {
+    width: 100%;
     padding-right: 0;
   }
-   
-  
-  .radio {
-    width: 13%;
+
+  .radio, .radio-1, .radio-2, .radio-3 {
+    width: 16%;
     float: right;
-    margin-top: -24px;
   }
-  .radio-1 {
-    width: 13%;
-    float: right;
-    margin-top: -28px;
-  }
-  .radio-2 {
-    width: 13%;
-    float: right;
-    margin-top: -20px;
-  }
-  .radio-3 {
-    width: 13%;
-    float: right;
-    margin-top: -12px;
+  .radio, .radio-1{
+    padding-top: 2%;
   }
   .border-part {
     border: 1px solid black;
@@ -645,10 +842,8 @@ width: 31%;
     font-weight: 600;
     font-size: 1rem;
   }
- 
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
   form {
     width: 100%;
   }
@@ -675,7 +870,8 @@ width: 31%;
     text-align: center;
   }
   .heading-third {
-    padding-top: 0.1rem;    font-size: 1.1rem;
+    padding-top: 0.1rem;
+    font-size: 1.1rem;
     line-height: 1rem;
   }
   .heading-forth {
@@ -685,7 +881,7 @@ width: 31%;
     margin: 0;
   }
   .Header_mid_Section {
-width: 86%;
+    width: 86%;
   }
   .Passport_details_header {
     font-size: 12px;
@@ -695,7 +891,7 @@ width: 86%;
     text-align: justify;
   }
   /* Header Section end */
-  
+
   .Ser_Reqd,
   .heading-four {
     background-color: rgb(170, 167, 167);
@@ -727,7 +923,7 @@ width: 86%;
     right: 0;
     bottom: 0;
   }
-  .gender{
+  .gender {
     width: 35%;
   }
   .labelAlignMent {
@@ -737,23 +933,36 @@ width: 86%;
     margin: 0%;
     justify-content: space-between;
   }
-  .inputReq{
-    width: 63%;   
+  .inputReq {
+    width: 63%;
   }
 
-  .mb,.Marital,.inputReqPan,.inputReqVoter,.Citizenship,#Town-city,.Region{
+  .mb,
+  .Marital,
+  .inputReqPan,
+  .inputReqVoter,
+  .Citizenship,
+  #Town-city,
+  .Region {
     width: 20%;
   }
-  .state,.District{
-width: 24%;
+  .state,
+  .District {
+    width: 24%;
   }
-  .numberMB,.Zip{
+  .numberMB,
+  .Zip {
     width: 27.3%;
   }
-  #Address,.Educational,.eligible,.inputReqAdhar,.inputReqVisible,.Citizenship1{
+  #Address,
+  .Educational,
+  .eligible,
+  .inputReqAdhar,
+  .inputReqVisible,
+  .Citizenship1 {
     width: 98%;
   }
-  .email{
+  .email {
     width: 60%;
   }
 
@@ -804,16 +1013,16 @@ width: 24%;
     font-size: larger;
     color: rgb(12, 12, 12);
   }
-  .details{
+  .details {
     display: flex;
     width: 100%;
     flex-direction: column;
   }
-  .detailsSection{
-   width: 100%;
+  .detailsSection {
+    width: 100%;
   }
   .margin-between {
-    margin-right:0;
+    margin-right: 0;
   }
   .para {
     font-weight: 600;
@@ -835,32 +1044,22 @@ width: 24%;
   }
   .para1 {
     float: left;
+    width: 84%;
   }
-  .con-Para {
-    width: 90%;
-  }
-  .con-Para-1 {
-    padding-right: 180px;
-  }
-  .con-Para-2 {
-    padding-right: 290px;
-  }
-  
-  .radio {
-    float: right;
-    margin-top: -38px;
-  }
-  .radio-1 {
-    float: right;
-    margin-top: -20px;
-  }
-  .radio-2 {
-    float: right;
-    margin-top: -5px;
-  }
+  .radio,
+  .radio-1,
+  .radio-2,
   .radio-3 {
     float: right;
-    margin-top: -5px;
+    width: 16%;
+  }
+  .radio {
+    padding-top: 3%;
+  }
+  .radio-1,
+  #radio-6,
+  #radio-7 {
+    padding-top: 2%;
   }
   .border-part {
     border: 1px solid black;
@@ -878,8 +1077,8 @@ width: 24%;
     font-weight: 600;
     font-size: 1rem;
   }
-}@media screen and (min-width: 1024px) and (max-width: 1219px) {
- 
+}
+@media screen and (min-width: 1024px) and (max-width: 1219px) {
   .main {
     width: 75%;
     margin: auto;
@@ -891,10 +1090,13 @@ width: 24%;
     border: 2px solid pink;
   }
   .image_Passport {
-    padding: 2% 1% 0 1%;
+    padding: 5% 1% 0 1%;
   }
   .image_Passport img {
     width: 5rem;
+  }
+  .gender {
+    width: 20%;
   }
   .Header_mid_Section .heading-third,
   .heading-forth {
@@ -915,7 +1117,7 @@ width: 24%;
     text-align: justify;
   }
   /* Header Section end */
-  
+
   .Ser_Reqd,
   .heading-four {
     background-color: rgb(170, 167, 167);
@@ -953,8 +1155,8 @@ width: 24%;
     margin: 0%;
     justify-content: space-between;
   }
-  .details{
-    display: flex
+  .details {
+    display: flex;
   }
   .label,
   .labelInput {
@@ -988,25 +1190,28 @@ width: 24%;
   .select-1 {
     width: 40%;
   }
-  .Educational{
+  .Educational {
     width: 11%;
   }
-  .Citizenship{
+  .Citizenship {
     width: 13%;
   }
-  #Address{
+  #Address {
     width: 90%;
   }
- 
-    #Town-city,.Region{
-      width: 23.5%;
+
+  #Town-city,
+  .Region {
+    width: 23.5%;
   }
-  .state,.District{
+  .state,
+  .District {
     width: 27%;
-}
-.Zip,.numberMB{
-  width: 30.5%;
-}
+  }
+  .Zip,
+  .numberMB {
+    width: 30.5%;
+  }
   input,
   select {
     background-color: rgb(235, 240, 254);
@@ -1041,35 +1246,33 @@ width: 24%;
   .width {
     width: 99%;
   }
+  .condition .condition {
+    width: 100%;
+  }
   .para1 {
+    width: 85%;
     float: left;
   }
-  .con-Para {
-    width: 80%;
-  }
-  .con-Para-1 {
-    padding-right: 180px;
-  }
+  .con-Para,
+  .con-Para-1,
   .con-Para-2 {
-    padding-right: 290px;
+    width: 100%;
   }
-  
-  .radio {
-    float: right;
-    margin-top: -38px;
-  }
-  .radio-1 {
-    float: right;
-    margin-top: -20px;
-  }
-  .radio-2 {
-    float: right;
-    margin-top: -5px;
-  }
+
+  .radio,
+  .radio-1,
+  .radio-2,
   .radio-3 {
     float: right;
-    margin-top: -5px;
+    width: 15%;
   }
+  .radio {
+    padding-top: 2%;
+  }
+  .radio-1 {
+    padding-top: 1%;
+  }
+
   .border-part {
     border: 1px solid black;
     padding: 5px;
@@ -1087,8 +1290,8 @@ width: 24%;
     font-size: 1rem;
   }
 }
+
 @media screen and (min-width: 1220px) and (max-width: 1919px) {
- 
   .main {
     width: 75%;
     margin: auto;
@@ -1124,7 +1327,7 @@ width: 24%;
     text-align: justify;
   }
   /* Header Section end */
-  
+
   .Ser_Reqd,
   .heading-four {
     background-color: rgb(170, 167, 167);
@@ -1162,7 +1365,9 @@ width: 24%;
     margin: 0%;
     justify-content: space-between;
   }
-  
+  .gender {
+    width: 20%;
+  }
   .label,
   .labelInput {
     font-weight: 700;
@@ -1229,38 +1434,30 @@ width: 24%;
   .width {
     width: 99%;
   }
-  .details{
-    display: flex
+  .details {
+    display: flex;
+  }
+  .condition .condition {
+    width: 100%;
   }
   .para1 {
+    width: 90%;
     float: left;
   }
-  .con-Para {
-    width: 80%;
-  }
-  .con-Para-1 {
-    padding-right: 180px;
-  }
+  .con-Para,
+  .con-Para-1,
   .con-Para-2 {
-    padding-right: 290px;
+    width: 100%;
   }
-  
-  .radio {
-    float: right;
-    margin-top: -38px;
-  }
-  .radio-1 {
-    float: right;
-    margin-top: -20px;
-  }
-  .radio-2 {
-    float: right;
-    margin-top: -5px;
-  }
+
+  .radio,
+  .radio-1,
+  .radio-2,
   .radio-3 {
     float: right;
-    margin-top: -5px;
+    width: 10%;
   }
+
   .border-part {
     border: 1px solid black;
     padding: 5px;

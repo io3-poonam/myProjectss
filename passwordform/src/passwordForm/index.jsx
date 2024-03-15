@@ -811,7 +811,7 @@ const PasswordForm = () => {
                   any time?<span>*</span>
                 </p>
               </div>
-              <div className="radio-3">
+              <div className="radio-3" id="radio-7">
                 <input type="radio" name="5point" required />
                 Yes
                 <input type="radio" name="5point" required />
