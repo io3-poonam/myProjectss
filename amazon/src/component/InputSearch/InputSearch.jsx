@@ -94,10 +94,12 @@ export default function SearchAppBar() {
        
         {/* </SearchIconWrapper> */}
         <StyledInputBase
-              placeholder="Search…"
+              placeholder="Search Amazon.in"
               inputProps={{ 'aria-label': 'search' }}
             />
-             <SearchIcon sx={{ padding: "1%" }} />
+             <SearchIcon sx={{     background: "#FEBD69",
+             padding:"0.6rem",
+    borderRadius: "0px 5px 5px 0px",}} />
       </Search>
     </Box>
   );

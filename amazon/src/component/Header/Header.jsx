@@ -13,8 +13,9 @@ import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import PlaceOutlinedIcon from "@mui/icons-material/PlaceOutlined";
-import SearchAppBar from"../InputSearch/InputSearch";
+import SearchAppBar from "../InputSearch/InputSearch";
 
+import Logo from "../../Assets/icon/amazon-ar21.svg";
 
 export default function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -118,33 +119,38 @@ export default function Header() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
+          <Box
+            component="img"
+            sx={{
+              cursor: "pointer",
+              height: 90,
+              width: 150,
+              maxHeight: { xs: 100, md: 70 },
+              maxWidth: { xs: 150, md: 100 },
+            }}
+            alt="The house from the offer."
+            src={Logo}
+          />
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            <Typography sx={{ fontSize: "11px" }}
+            <Typography
+              sx={{ fontSize: "11px" }}
               // variant="h6"
               noWrap
               // component="div"
             >
               Delivering to Chandigarh 160047
             </Typography>
-            <Typography sx={{ fontSize: "14px",fontWeight:"600" }}
+            <Typography
+              sx={{ fontSize: "14px", fontWeight: "600" }}
               // variant="h6"
               noWrap
               component="div"
             >
-              <PlaceOutlinedIcon sx={{ fontSize: "16px" }}/>
+              <PlaceOutlinedIcon sx={{ fontSize: "16px" }} />
               Update location
             </Typography>
           </Box>
-        <SearchAppBar/>
+          <SearchAppBar />
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <IconButton
