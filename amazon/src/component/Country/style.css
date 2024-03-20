@@ -1,0 +1,11 @@
+.image{
+    width: 125px;
+}
+.container{
+    width: 10%;
+    height: 15rem;
+    overflow-y: scroll;
+}
+.subContainer:hover{
+border: 1px solid black;
+}
