@@ -1,11 +1,14 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
 import { Typography } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../Assets/icon/amazon-logo.png";
+import InputLabel from '@mui/material/InputLabel';
+import TextField from '@mui/material/TextField';
+import FormControl from '@mui/material/FormControl';import { alpha, styled } from '@mui/material/styles';
+import InputBase from '@mui/material/InputBase';
 const LoginPage = () => {
   const navigate = useNavigate();
   const HandleCondition = (event) => {
@@ -18,41 +21,106 @@ const LoginPage = () => {
   const HandleHomePage = (e) => {
     navigate("/");
   };
-
+  // input
+  const InputSection = styled(InputBase)(({ theme }) => ({
+    'label + &': {
+      marginTop: theme.spacing(3),
+      width:theme.spacing(60),
+    },
+    '& .MuiInputBase-input': {
+      borderRadius: 4,
+      position: 'relative',
+      backgroundColor: theme.palette.mode === 'light' ? '#F3F6F9' : '#1A2027',
+      border: '1px solid',
+      borderColor: theme.palette.mode === 'light' ? '#E0E3E7' : '#2D3843',
+      fontSize: 16,
+      width: "100%",
+      height: "fitContent",
+      padding: '8px 12px',
+      transition: theme.transitions.create([
+        'border-color',
+        'background-color',
+        'box-shadow',
+      ]),
+      // Use the system font instead of the default Roboto font.
+      fontFamily: [
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+      ].join(','),
+      '&:focus': {
+        boxShadow: `${alpha(theme.palette.primary.main, 0.25)} 0 0 0 0.2rem`,
+        borderColor: theme.palette.primary.main,
+      },
+    },
+  }));
   return (
-    <>
-      <Box
+    <> 
+    <Box
+    component="div"
+    sx={{width:"45%",
+  margin:"auto"}}
+  > 
+  <Box sx={{    margin: "auto",
+    width:" 40%"}}>
+  <Box
+    onClick={(h) => HandleHomePage(h)}
+    component="img"
+    sx={{
+      cursor: "pointer",
+      height: 150,
+      width: 200,
+      maxHeight: { xs: 100, md: 110 },
+      maxWidth: { xs: 150, md: 180 },
+    }}
+    alt="The house from the offer."
+    src={Logo}
+  /></Box>
+         <Box
+        component="div"
+        sx={{
+          "& > :not(style)": { m: 1,},
+          background: "light",
+          margin: "1% auto",
+          border: "1px solid black",    borderRadius: "15px",
+          padding: "2% 2% 2% 4%;",
+          width: "100%",
+        }}
+      >
+      
+           <Box
         component="form"
         sx={{
-          "& > :not(style)": { m: 1, width: "30ch" },
           background: "light",
-          margin: "10% auto",
-          border: "1px solid black",
+          margin: "5% auto",
+          
           width: "40%",
         }}
         noValidate
         autoComplete="off"
-      >
-        <Box
-          onClick={(h) => HandleHomePage(h)}
-          component="img"
-          sx={{
-            cursor: "pointer",
-            height: 90,
-            width: 150,
-            maxHeight: { xs: 100, md: 70 },
-            maxWidth: { xs: 150, md: 100 },
-          }}
-          alt="The house from the offer."
-          src={Logo}
-        />
+      ></Box>
+
         <Typography variant="h4"> Sign in</Typography>
-        <form>
-          <label htmlFor="EmailMobile">Email or mobile phone number</label>
-          <input id="EmailMobile" type="text" />
-        </form>
-        <Stack spacing={4} direction="row">
-          <Button variant="contained">Contained</Button>
+      
+        <FormControl variant="standard">
+        <InputLabel shrink htmlFor="input-Section" sx={{color: "black",
+      fontWeight: "600",
+      fontSize: "1.4rem",
+      lineHeight: "1em"}}>
+          Email or mobile phone number
+        </InputLabel>
+        <InputSection id="fullWidth input-Section" />
+      </FormControl>
+
+        <Stack spacing={4} direction="row" id="fullWidth" sx={{width:"94%"}} >
+          <Button variant="contained" sx={{width:"100%"}}  >Contained</Button>
         </Stack>
         <Typography >
           {" "}
@@ -92,6 +160,7 @@ const LoginPage = () => {
           >
             Privacy Notice.
           </Typography> Help 
+      </Box>
       </Box>
       <footer>
       © 1996-2024,
